@@ -70,16 +70,16 @@ public class Task025Test {
     @Test
     public void emptyMessage() throws Exception {
         assertEquals("Invalid result",
-            0,
-            instance.getAmountOfAlteredLetters("")
+                0,
+                instance.getAmountOfAlteredLetters("")
         );
     }
 
     @Test
     public void shuffledMessage() throws Exception {
         assertEquals("Invalid result",
-            4,
-            instance.getAmountOfAlteredLetters("SSOOSS")
+                4,
+                instance.getAmountOfAlteredLetters("SSOOSS")
         );
     }
 

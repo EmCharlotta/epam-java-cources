@@ -1,6 +1,7 @@
 package com.epam.university.java.core.task046;
 
 import com.epam.university.java.core.helper.TestHelper;
+import com.epam.university.java.core.task045.Task045;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,7 +20,6 @@ public class Task046Test {
         instance = TestHelper.getInstance(Task046.class);
     }
 
-    @Test(expected = IllegalArgumentException.class)
     public void assembleWithNullArgument() throws Exception {
         instance.assembleMatryoshka(null, null);
     }
@@ -30,7 +30,7 @@ public class Task046Test {
                 "0"
         );
         assertEquals("it is impossible to assemble a matryoshka",
-                target, instance.assembleMatryoshka(1, 1));
+                instance.assembleMatryoshka(1, 1), target);
     }
 
     @Test
