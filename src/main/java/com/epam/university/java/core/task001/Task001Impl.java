@@ -14,6 +14,7 @@ public class Task001Impl implements Task001 {
         double first = Double.parseDouble(firstNumber);
         double second = Double.parseDouble(secondNumber);
         return (first + second);
+
     }
 
     @Override
