@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 
-public class   Task037Impl implements Task037 {
+public class Task037Impl implements Task037 {
     @Override
     public Collection<String> switcher(Callable<String> ticker, Callable<String> tacker) {
         try {
