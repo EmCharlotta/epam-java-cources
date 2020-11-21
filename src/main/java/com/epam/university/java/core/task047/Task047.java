@@ -7,7 +7,7 @@ package com.epam.university.java.core.task047;
  *     Given n such as 1 <= n <= 10^5. Given an array A[1...n],
  *     containing natural numbers not exceeding 10^9.
  *     It is necessary to calculate the number of pairs
- *     of indices 1 <= i < j <= n, for which A[i] > A[j].
+ *     of indices 0 <= i < j < n, for which A[i] > A[j].
  *     (Such a pair of elements is called an array inversion.
  *     The number of inversions in an array is, in a sense,
  *     a measure of its disorder: for example, in an array sorted in non-decreasing order,
