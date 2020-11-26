@@ -1,5 +1,6 @@
 package com.epam.university.java.project.core.cdi.structure;
 
+
 import java.util.Collection;
 
 /**
@@ -10,13 +11,13 @@ public interface ListDefinition extends StructureDefinition {
      * Get list items.
      * @return list items
      */
-    Collection<ListItemDefinition> getItems();
+    Collection<ListItemDefinition> getValues();
 
     /**
      * Set list items.
-     * @param items collection of list items
+     * @param values collection of list items
      */
-    void setItems(Collection<ListItemDefinition> items);
+    void setValues(Collection<ListItemDefinition> values);
 
     interface ListItemDefinition {
         /**

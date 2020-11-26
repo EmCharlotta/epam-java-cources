@@ -10,13 +10,13 @@ public interface MapDefinition extends StructureDefinition {
      * Get map entry collection.
      * @return entry collection
      */
-    Collection<MapEntryDefinition> getValues();
+    Collection<MapEntryDefinition> getEntries();
 
     /**
      * Set map entry collection.
-     * @param values entry collection
+     * @param entries entry collection
      */
-    void setValues(Collection<MapEntryDefinition> values);
+    void setEntries(Collection<MapEntryDefinition> entries);
 
     interface MapEntryDefinition {
         /**
